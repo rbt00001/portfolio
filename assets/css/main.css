@@ -1801,7 +1801,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #787878;
+		color: red;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
