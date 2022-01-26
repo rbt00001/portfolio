@@ -200,15 +200,15 @@ textarea {
   line-height: 1.75em;
 }
 
-a {
+/* a {
   -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  color: #bf4949;
   text-decoration: none;
-}
+} */
 
 a:hover {
   border-bottom-color: transparent;
@@ -2183,14 +2183,14 @@ input[type="radio"] + label:before {
   white-space: nowrap;
 }
 
-/* .image.thumb:hover:after {
-				opacity: 1.0;
-			}
+.image.thumb:hover:after {
+  opacity: 1;
+}
 
-			.image.thumb:hover:before {
-				background: url("#"), url("#");
-				opacity: 1.0;
-			} */
+.image.thumb:hover:before {
+  background: url("#"), url("#");
+  opacity: 1;
+}
 
 .image img {
   border-radius: 0.35em;
